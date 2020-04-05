@@ -1,3 +1,6 @@
+body{
+  width: ;
+}
   .form-container{
       margin-left:500px;
       margin-top: 100px;
@@ -152,10 +155,12 @@
   background-color: #b1fd64;
   color:white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 678px) {
     /* For mobile phones: */
     .form-container{
-      width:500pxs;
+      margin-left: 20px;
+      margin-top: 20px;
+      width:300px;
       height:450px;
       background: #ffff;
       
