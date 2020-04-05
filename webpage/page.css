@@ -1,6 +1,11 @@
-body{
-  width: ;
-}
+/* body{
+  margin-left:500px;
+  margin-top: 100px;
+  width:300px;
+  height:450px;
+  background: #ffff;
+  background-size: 200%;
+} */
   .form-container{
       margin-left:500px;
       margin-top: 100px;
@@ -10,6 +15,7 @@ body{
       
       box-shadow:0px 0px 10px 0px #000;
       /* background-color:black; */
+      background-size: 200%;
   }   
 .block1{
     border-top-left-radius: 8px;
@@ -155,16 +161,12 @@ body{
   background-color: #b1fd64;
   color:white;
 }
-@media only screen and (max-width: 678px) {
+@media only screen and (max-width: 1000px) {
     /* For mobile phones: */
     .form-container{
-      margin-left: 20px;
-      margin-top: 20px;
-      width:300px;
-      height:450px;
-      background: #ffff;
-      
-      box-shadow:0px 0px 10px 0px #000;
+      margin-top: 20%;
+      margin-left:20%;
+      background-size: 300%;
   }
     
   }
