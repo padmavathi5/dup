@@ -1,13 +1,13 @@
-.form-container{
-    margin-left:500px;
-    margin-top: 100px;
-    width:300px;
-    height:450px;
-    background: #ffff;
-    
-    box-shadow:0px 0px 10px 0px #000;
-    /* background-color:black; */
-}   
+  .form-container{
+      margin-left:500px;
+      margin-top: 100px;
+      width:300px;
+      height:450px;
+      background: #ffff;
+      
+      box-shadow:0px 0px 10px 0px #000;
+      /* background-color:black; */
+  }   
 .block1{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -154,5 +154,14 @@
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    .form-container{
+      margin-left:0px;
+      margin-top: 0px;
+      width:300px;
+      height:450px;
+      background: #ffff;
+      
+      box-shadow:0px 0px 10px 0px #000;
+  }
     
   }
